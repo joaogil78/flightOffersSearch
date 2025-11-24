@@ -9,7 +9,7 @@ const amadeus = new Amadeus({
   clientId: process.env.API_KEY,
   clientSecret: process.env.API_SECRET,
 });
-const port = 3000;
+
 app.use(express.static('public'));
 
 /* app.get('/', (req, res) => {
@@ -68,4 +68,4 @@ app.get('/api/search', async (request, response) => {
   }
 }); */
 
-app.listen(port, () => console.log('Server start...'));
+app.listen(process.env.PORT, () => console.log('Server start...'));

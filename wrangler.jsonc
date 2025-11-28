@@ -1,0 +1,8 @@
+{
+    "name": "worker-name",
+    "compatibility_date": "2025-11-28",
+    "main": "app.js",
+    "assets": {
+        "directory": "./public"
+    }
+}
